@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@import url(style_Reset.css);
+
+
+
+
+
+div#wrap {border: 1px solid #000;}
+div#up {border: 1px solid #000;}
+header#header  {border: 1px solid #000;}
+#mainMenu>li {border: 1px solid #000;}
+nav#gnb {border: 1px solid #000;}
+main#main {border: 1px solid #000;}
+/*#mainContents>li{border: 1px solid #000;}*/
+div#contents {border: 1px solid #000;}
+table#notice {border: 1px solid #000;}
+div#board {border: 1px solid #000;}
+div#tab{border: 1px solid #000;}
+.nature{border: 1px solid #000;}
+
+div#notice{border: 1px solid #000;}
+div#top{border: 1px solid #000;}
+div#bottom{border: 1px solid #000;}
+div#first{border: 1px solid #000;}
+div#second{border: 1px solid #000;}
+div#third{border: 1px solid #000;}
+div#four{border: 1px solid #000;}
+
+
+
+
+
+div#wrap{
+    width: 1360px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+div#up{
+    background-color: #fff;
+}
+
+header#header{
+    text-align: center;
+    height: 90px;
+    line-height: 90px;
+}
+
+nav#gnb{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#mainMenu{
+    padding: 10px;
+
+}
+
+#mainMenu>li{
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+    text-align: center;
+    padding: 10px;
+}
+
+li.mainLi:not(:last-child) {
+    border-right: none !important;
+}
+
+
+main#main{
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+/*
+#mainContents>li:first-child,
+#mainContents>li:last-child {
+    padding: 15px;
+    line-height: 180px;
+}*/
+
+
+
+.nature{
+    margin: 10px;
+    line-height: 15px;
+
+}
+
+
+
+div#center{
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+    border: 1px solid #000;
+
+}
+
+#main div.arrowArea{
+    padding: px;
+    margin: 0 10px;
+    border: 1px solid #000;
+    line-height: 230px;
+}
+
+
+
+.nature>h4{
+    padding: 10px 0 0 10px;
+    color: #24834e;
+}
+
+.nature>p4{
+   padding: 0 50px 0 10px;
+   font-size: 12px;
+}
+
+.nature>p4:last-child{
+    margin: 10px;
+    line-height: 30px;
+}
+
+
+div#contents{
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+#date{
+    border: 1px solid #000;
+    border-radius: 100px;
+    margin: 5px;
+    text-align: center;
+    padding: 20px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
