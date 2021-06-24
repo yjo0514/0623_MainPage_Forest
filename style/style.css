@@ -62,7 +62,7 @@ nav#gnb{
 }
 
 #mainMenu{
-    padding: 10px;
+    padding: 10px 0;
 
 }
 
@@ -97,7 +97,7 @@ main#main{
 
 
 .nature{
-    margin: 15px;
+
     line-height: 15px;
     height: 280px;
 }
@@ -111,14 +111,18 @@ div#center{
     -o-flex: 1px;
     flex: 1px;
     /*border: 1px solid #000;*/
+    justify-content: space-between;
 
 }
 
 #main div.arrowArea{
-    padding: 5px;
+    padding: 10px;
     margin: 0 10px;
    /* border: 1px solid #000;*/
-    line-height: 270px;
+    height: auto;
+    line-height: 265px;
+
+
 }
 
 
