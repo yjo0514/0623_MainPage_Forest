@@ -164,10 +164,31 @@ div#tab>button{
     border: 1px solid #fff;
 }
 
-div#tab>button:first-child{
+div#tab>button:first-child {
     color: #f43e3e;
-    padding: 0 10px 0 0;
+    padding: 0 0 20px 0;
+    border: none;
+    border-bottom: 4px solid #f00;
+
 }
+
+
+
+
+div#tab>button{
+    margin-right: 10px;
+}
+
+#tab>button,
+#tab>button img{
+    margin-right: 10px;
+}
+
+#tab>button img{
+    transform: translateY(-3px);
+}
+
+
 
 div#tab>img{
     position: relative;
@@ -238,6 +259,7 @@ div#board{
 
 div#board>h3{
     padding: 20px;
+    margin-top: 10px;
 }
 
 h3>img{
